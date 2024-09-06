@@ -1,3 +1,6 @@
+# 📖 Shelfie
+Bem vindo a organização Shelfie! Desenvolvida para o Projeto Integrador I do Intituto Federal do Paraná - Campus Foz do Iguaçu. Aqui nesta organização você pode navegador pelos repositórios e commits feitos durante o desenvolvimento do projeto e ver sua evolução! Temos nas abas de repositórios, a camada de Lógica da API (repositório Shelfie-back-end) e a camada de Aplicação Web (repositório Shelfie-front-end). Neste documento, você terá um resumo de como é o projeto com a documentação técnica e passo a passo de como acessar ele de maneira online e também localmente. Conheça nossa equipe!
+
 <div align="center">
  <h2>🤝 Contribuidores</h2>
  <div display="inline-flex">
@@ -54,7 +57,7 @@
  </table>
 </div>
 
-### Resumo
+### ✏️ Resumo
  <p align="justify">
   Entusiastas de leitura buscam formas de organizar o andamento de suas leituras de forma a manterem contato e engajamento com outras pessoas de interesses semelhantes. Embora existam diversos sistemas com uma ampla gama de funcionalidades, há uma carência de plataformas que oferecem uma visão centralizada e integrada das atividades de leitura. Este artigo apresenta o desenvolvimento do Shelfie, um Sistema de Gerenciamento e Monitoramento de Leituras, desenvolvido da necessidade dos usuários de poderem acompanhar e monitorar suas leituras diárias, a partir das progressões, do estado das leituras e das avaliações. Através de uma arquitetura de três camadas, desenvolvemos uma aplicação web separando a interface, lógica de negócios e dados. Isso facilita a manutenção para futuras melhorias. O Shelfie atingiu seus principais objetivos, que é oferecer uma interface para o usuário poder monitorar e gerenciar suas leituras a partir das funcionalidades implementadas. O projeto proporcionou importantes aprendizados sobre desenvolvimento de software e design centrado no usuário em aplicações Web. 
  </p>
@@ -112,13 +115,16 @@ E pronto! Sua aplicação deve rodar normalmente.
 | RF 11 | O **Sistema** deve permitir que **Leitor** receba badges pela quantidade de livros lidos.  | UC 11 - Gerenciar Badges do **Usuário** | 
 
 ## Diagrama de Casos de Uso Geral
+<p>No diagrama de casos de uso geral, podemos ter um parâmetro geral de todas as funcionalidades que o Shelfie tem e qual o Ator que pode realizá-la.</p>
 <img height="600em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/30441ff3-a7ef-4b38-94f4-0e2159dc07a1" />
 
 ## Modelo Entidade-Relacionamento
+<p>No modelo entidade-relacionamento temos uma visão a nível de banco de dados, como as entidades do nosso sistema se relacionam e quais seus atributos!</p>
 <img height="600em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/f5e3fe73-ca22-4e49-b2c1-adc662a90f35" />
 
 
 ## Prototipação - Telas Principais 
+<p>As prototipações foram feitas antes da implementação do código para agilizar a parte de estilização do sistema uma vez que essa parte já estava planejada. Tiveram algumas mudanças durante o desenvolvimento, mas o Shelfie continua com a cara das autoras!</p>
 <img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/95eca277-3367-4dbe-8dc7-268fa0658dd2" /> <img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/b7ab3d50-9bbe-492b-9ec1-0b7b47f26074" /> 
 <img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/ee71fe78-6985-4f99-aa8b-7fc468e04b37 " /> <img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/b668974c-d207-4f65-9d7f-b1bb2de17a05" />
 
