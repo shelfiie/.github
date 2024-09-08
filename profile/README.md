@@ -70,7 +70,7 @@ Bem vindo a organização Shelfie! Desenvolvida para o Projeto Integrador I do I
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente do node e do npm para o front-end e para o back-end o java 17 e o tomcat 10.
+- Você instalou a versão mais recente do node e do npm para o front-end e para o back-end o java 17, o tomcat 10 e a última versão do PostgreSQL.
 - Você tenha git e vite instalado na sua máquina. 
 
 ### 💻 Instalando Shelfie-FrontEnd
@@ -101,6 +101,16 @@ Para instalar o Shelfie-BackEnd, siga estas etapas:
 Linux, macOS e Windows:
 
 ```
+# acesse o PostgreSQL como o usuário postgres
+sudo -u postgres psql
+# crie o usuário do banco de dados
+CREATE USER shelfie WITH PASSWORD 'password';
+# crie o banco de dados
+CREATE DATABASE db_shelfie;
+# conceda todas as permissões ao usuário shelfie para modificar o banco de dados criado
+GRANT ALL PRIVILEGES ON DATABASE db_shelfie TO shelfie;
+
+
 # clone o repositório
 git clone https://github.com/shelfiie/Shelfie-back-end
 # mova para o diretório da aplicação
