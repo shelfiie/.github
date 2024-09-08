@@ -70,7 +70,7 @@ Bem vindo a organização Shelfie! Desenvolvida para o Projeto Integrador I do I
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente do node e do npm.
+- Você instalou a versão mais recente do node e do npm para o front-end e para o back-end o java 17 e o tomcat 10.
 - Você tenha git e vite instalado na sua máquina. 
 
 ### 💻 Instalando Shelfie-FrontEnd
@@ -93,6 +93,28 @@ Para rodar a aplicação do Shelfie localmente é simples, basta você rodar o c
 ```
 vite
 ```
+
+### 💻 Instalando Shelfie-BackEnd
+
+Para instalar o Shelfie-BackEnd, siga estas etapas:
+
+Linux, macOS e Windows:
+
+```
+# clone o repositório
+git clone https://github.com/shelfiie/Shelfie-back-end
+# mova para o diretório da aplicação
+cd /Shelfie-back-end
+# Compile o projeto sem rodar os testes
+mvn package -Dmaven.test.skip=true
+```
+
+### 🚀 Rodando o Shelfie-backEnd
+Para rodar a API do Shelfie localmente é simples, basta você rodar o comando:
+```
+java -jar target/shelfie-0.0.1-SNAPSHOT.jar
+```
+
 E pronto! Sua aplicação deve rodar normalmente.
 
 ### 
