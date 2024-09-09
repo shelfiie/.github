@@ -148,18 +148,19 @@ E pronto! Sua aplicação deve rodar normalmente.
 
 ## Diagrama de Casos de Uso Geral
 <p>No diagrama de casos de uso geral, podemos ter um parâmetro geral de todas as funcionalidades que o Shelfie tem e qual o Ator que pode realizá-la.</p>
-<img height="600em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/30441ff3-a7ef-4b38-94f4-0e2159dc07a1" />
+<img height="600em" src="https://github.com/user-attachments/assets/50262921-4eb6-49d8-887c-73fddfc0aa80" />
 
 ## Modelo Entidade-Relacionamento
 <p>No modelo entidade-relacionamento temos uma visão a nível de banco de dados, como as entidades do nosso sistema se relacionam e quais seus atributos!</p>
-<img height="600em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/f5e3fe73-ca22-4e49-b2c1-adc662a90f35" />
-
+<img height="600em" src="https://github.com/user-attachments/assets/cbd80570-51ed-4126-ba59-e826078351365" />
 
 ## Prototipação - Telas Principais 
 <p>As prototipações foram feitas antes da implementação do código para agilizar a parte de estilização do sistema uma vez que essa parte já estava planejada. Tiveram algumas mudanças durante o desenvolvimento, mas o Shelfie continua com a cara das autoras!</p>
-<img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/95eca277-3367-4dbe-8dc7-268fa0658dd2" /> <img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/b7ab3d50-9bbe-492b-9ec1-0b7b47f26074" /> 
-<img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/ee71fe78-6985-4f99-aa8b-7fc468e04b37 " /> <img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/b668974c-d207-4f65-9d7f-b1bb2de17a05" />
 
-<img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/5a847952-b1ae-40d6-8c8d-ac01b13792c1" /> <img height="350em" src="https://github.com/shelfiie/Documentacao-Shelfie/assets/79992764/74080664-7214-4f02-897d-16dd6ee474f6" />
+
+<img height="350em" src="https://github.com/user-attachments/assets/988e7679-9c43-48b5-badb-4a8c2cbfe058" /> 
+<img height="350em" src="https://github.com/user-attachments/assets/7cdce87f-d849-4b58-9a69-dffba83e2e96" /> 
+<img height="350em" src="https://github.com/user-attachments/assets/635c8882-2c5e-44f4-bf47-b275029d01ee" />
+<img height="350em" src="https://github.com/user-attachments/assets/060fc794-b8da-4d5a-9d01-b909c85e3e57" /> 
 
 
